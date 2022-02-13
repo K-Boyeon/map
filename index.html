@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이그린테크 오시는길</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="menu">
+      <ul>
+        <li>
+          <a href="">인사말</a>
+        </li>
+        <li>
+          <a href="">회사연혁</a>
+        </li>
+        <li>
+          <a href="">조직도</a>
+        </li>
+        <li>
+          <a href="">오시는 길</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="title">
+      <h1>오시는 길</h1>
+    </div>
+
+    <div class="mapWrap">
+      <div class="map">
+        <div class="mapfloat">
+          <div class="mapimg">
+            <!-- * 카카오맵 - 지도퍼가기 -->
+            <!-- 1. 지도 노드 -->
+            <div id="daumRoughmapContainer1644682677783" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+  
+            <!--
+              2. 설치 스크립트
+              * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+            -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+  
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+              new daum.roughmap.Lander({
+                "timestamp" : "1644682677783",
+                "key" : "294r4",
+                "mapWidth" : "600",
+                "mapHeight" : "360"
+              }).render();
+            </script>
+          </div>
+  
+          <div class="info">
+            <h1>(주)이그린테크</h1>
+            <ul>
+              <li>
+                <strong>주소</strong>
+                  경기도 안산시 단원구 별망로128번길 34(성곡동, 시화공단 5바 803-2호)<br>
+                  (구주소: 경기도 안산시 단원구 성곡동 689-11번지)
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <strong>Tel.</strong>
+                031-365-3401~2
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <strong>Fax.</strong>
+                031-365-3403
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <strong>이메일</strong>
+                egt3401@naver.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+      <div class="mapText">
+        <dl>
+          <dd>승용차 이용시</dd>
+          <dt>남안산ic → 시화공단 방향 → 신길고가사거리 좌회전→ 외곽1교삼거리 좌회전 → 시화공단길 교차로 좌회전 → 선우 엔지니어링에서 우회전후 200M</dt>
+        </dl>
+        <dl>
+          <dd>대중교통 이용시</dd>
+          <dt><strong>1. 지하철 이용하여 오시는 경우</strong><br>
+            지하철 4호선 정왕역 1번 출구로 나온 후 → 택시 이용시 20분 거리</dt>
+        </dl>
+      </div>
+      
+    </div>
+
+  </div>
+</body>
+</html>
